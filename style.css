@@ -1,0 +1,145 @@
+/* ==========================================================================
+  Style CSS
+   ========================================================================== */
+
+
+html {
+    font-family: sans-serif; /* 1 */
+    -webkit-text-size-adjust: 100%; /* 2 */
+    -ms-text-size-adjust: 100%; /* 2 */
+}
+
+body{
+	
+}
+
+.container {
+	margin-top: 20px;	
+	margin-bottom: 35px;
+}
+
+.login {
+	background: #f6f6f6;
+    border-radius: 4px;
+    padding: 16px 5px 70px 55px;
+	left: 33%;
+    margin-top: 7%;
+    position: absolute;
+}
+
+.cadastro {
+	background: #f6f6f6;
+    border-radius: 4px;
+	width: 35%;
+    padding: 16px 5px 70px 55px;
+	left: 33%;
+    margin-top: 7%;
+    position: absolute;
+	
+}
+
+.btn-login {
+	background: green;
+    border: green;
+    width: 47%;
+    padding: 9px;
+	margin-top: 20px;
+    border-radius: 4px;
+    color: #fff;
+    font-weight: bold;
+	
+}
+.btn-cadastrar {
+    background: darkmagenta;
+    border: darkmagenta;
+    width: 44%;
+    padding: 8px;
+    border-radius: 4px;
+    color: #fff !important;
+    font-weight: bold;
+	position: absolute;
+    margin-top: 10px;
+    text-align: center;
+	
+}
+.btn-sair {
+	background: darkmagenta;
+    border: darkmagenta;
+    width: 13%;
+    padding: 8px;
+    border-radius: 4px;
+    color: #fff !important;
+    font-weight: bold;
+    position: absolute;
+    margin-top: 10px;
+    text-align: center;
+    left: 37%;
+    margin-bottom: 30px;
+}
+.btn-alterar-adm {
+	background: darkmagenta;
+    border: darkmagenta;
+    width: 20%;
+    padding: 8px;
+    border-radius: 4px;
+    color: #fff !important;
+    font-weight: bold;
+    
+    margin-top: 10px;
+    text-align: center;
+}
+.btn-inicial{
+	background: darkmagenta;
+    border: darkmagenta;
+    width: 20%;
+    padding: 8px;
+    border-radius: 4px;
+    color: #fff !important;
+    font-weight: bold;
+    position: absolute;
+    margin-top: 10px;
+    text-align: center;
+	
+}
+.btn-alterar {
+	background: darkmagenta;
+    border: darkmagenta;
+    width: 20%;
+    padding: 8px;
+    border-radius: 4px;
+    color: #fff !important;
+    font-weight: bold;
+    margin-top: 10px;
+    text-align: center;
+	
+
+}
+
+.sucesso {
+	color: green;
+	font-weight: bold;
+}
+
+.erro{
+	color: red;
+	font-weight: bold;
+}
+.form-alterar {
+	background: #f6f6f6;
+    padding: 20px;
+    width: 50%;
+    border-radius: 4px;
+}
+.form-control {
+   width: 85% !important;
+   margin-bottom: 10px;
+}
+
+.login h2 {
+	text-align: center;
+    color: lightslategrey;
+}
+
+.nav-tabs {
+    border-bottom: none !important;
+}
